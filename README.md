@@ -1,15 +1,20 @@
 # Virtual-Voice-Assistant
 This directory contains code to import and evaluate the speaker identification and verification models pretrained on the VoxCeleb(1 & 2) datasets as described in the following papers (1 and 2):
+
+
      [1] A. Nagrani*, J. S. Chung*, A. Zisserman, VoxCeleb: a large-scale speaker identification dataset, 
          INTERSPEECH, 2017
 
      [2] J. S. Chung*, A. Nagrani*, A. Zisserman, VoxCeleb2: Deep Speaker Recognition, 
 INTERSPEECH, 2018
+
 The models trained for verification map voice spectrograms to a compact Euclidean space where distances directly correspond to a measure of speaker similarity. Such embeddings can be used for tasks such as speaker verification, clustering and diarisation.
+
 ## Prerequisites
     [1] Matlab
 
     [2] Matconvnet.
+    
 ## Installing
 The easiest way to use the code in this repo is with the vl_contrib package manager. To install, follow these steps:
 
@@ -42,9 +47,11 @@ If you use this code then please cite:
           booktitle    = "INTERSPEECH",
           year         = "2017",
    }
+   
+   
     @InProceedings{Nagrani17,
           author       = "Chung, J.~S. and Nagrani, A. and Zisserman, A.",
           title        = "VoxCeleb2: Deep Speaker Recognition",
           booktitle    = "INTERSPEECH",
           year         = "2018",
-}
+   }
