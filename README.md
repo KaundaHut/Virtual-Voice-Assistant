@@ -21,23 +21,33 @@ The easiest way to use the code in this repo is with the vl_contrib package mana
 Install and compile matconvnet by following instructions here.
 
 Run:
+
+      
        vl_contrib install VGGVox
        vl_contrib setup VGGVox
+       
+       
 You can then run the demo scripts provided to import and test the models. There are three short demo scripts. The first two scripts are for identification and verification models trained on VoxCeleb1. The third script imports and test a verification model trained on VoxCeleb2. These demos demonstrate how to evaluate the models directly on .wav audio files:
+
         demo_vggvox_identif 
         demo_vggvox_verif 
         demo_vggvox_verif_voxceleb2
+        
+        
  ## Models
  The matconvnet models can also be downloaded directly using the following links:
+ 
 
-Model trained for identification on VoxCeleb1
+    Model trained for identification on VoxCeleb1
 
-Model trained for verification on VoxCeleb1
+    Model trained for verification on VoxCeleb1
 
-Model trained for verification on VoxCeleb2 (this is a resnet based model)
+    Model trained for verification on VoxCeleb2 (this is a resnet based model)
 
 ## Datasets
+
 These models have been pretrained on the VoxCeleb (1&2) datasets. VoxCeleb contains over 1 million utterances for 7,000+ celebrities, extracted from videos uploaded to YouTube. The speakers span a wide range of different ethnicities, accents, professions and ages. The dataset can be downloaded directly from here.
+
 ## Citation
 If you use this code then please cite:
 
